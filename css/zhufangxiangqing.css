@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+/* 头部 */
+.box{
+    width: 100%;
+    display: flex;
+    background-color: #FF8A00;
+    box-sizing: border-box;
+    padding: 1rem 3rem;
+    justify-content: space-between;
+}
+.box>ul{
+    display: flex;
+    list-style: none;
+}
+.box>ul>li{
+    margin-right: 2rem;
+}
+.pp{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem 3rem;
+    font-size: 2.4rem;
+    color: black;
+    border-bottom: .1rem solid #C5C5C5;
+}
+.pp>a{
+    color: black;
+}
+.pp>.a1{
+    font-weight: 700;
+}
+
+.bo1{
+    width: 100%;
+}
+.bo1>.bo2{
+    position: relative;
+}
+.bo1>.bo2>img{
+    width: 100%;
+    /* position: relative; */
+}
+.bo1>.bo2>p{
+    width: 10rem;
+    height: 5rem;
+    text-align: center;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: aliceblue;
+    border-radius: 1rem 0 0 1rem;
+    background-color: rgba(11, 1, 1, 0.6);
+    position: absolute;
+    right: 0px;
+    bottom: 0rem;
+}
+.bo1>.bo3{
+    width: 100%;
+    padding: 4rem 0;
+    display: flex;
+    padding-left: 4rem;
+    box-sizing: border-box;
+    border-bottom: .1rem solid #DCDCDC;
+}
+.bo1>.bo3>p{
+    font-size: 4rem;
+    font-weight: 800;
+    border-right: .01rem solid #DCDCDC;
+}
+.bo1>.bo3>a{
+    background: url(../image/rentalList/xin.png) no-repeat 9rem 4rem;
+    padding-top: 7rem;
+    width: 30rem;
+    font-size: 2rem;
+    color: #666666;
+    background-size:4rem 4rem;
+    text-align: center;
+    
+    
+}
+.bo1>.u1{
+    width: 100%;
+    padding: 4rem 0;
+    border-bottom: .1px solid #DCDCDC;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bo1>.u1>li{
+    text-align: center;
+    line-height: 3rem;
+    font-size: 2rem;
+}
+.bo1>.u1>li>p{
+    color: #FF8A00;
+}
+.bo1>.u1>.l1{
+    padding-right: 4rem;
+    border-right: .1rem solid #DCDCDC;
+}
+.bo1>.u2{
+    width: 100%;
+    list-style: none;
+    padding: 0 2rem;
+    box-sizing: border-box;
+    border-bottom: .1rem solid #DCDCDC;
+}
+.bo1>.u2>li{
+    width: 100%;
+    border-bottom: .1rem solid #DCDCDC;
+    display: flex;
+}
+.bo1>.u2>li>p{
+    width: 50%;
+    font-size: 1.8rem;
+    line-height: 4rem;
+}
+
+.bo1>.bo4{
+    width: 95%;
+    margin: 2rem auto;
+    border: .1px solid #DCDCDC;
+    /* display: flex; */
+}
+.bo1>.bo4>.p1{
+    width: 100%;
+    font-size: 3rem;
+    line-height: 5rem;
+    font-weight: 800;
+    color: #FF8A00;
+    box-sizing: border-box;
+    padding: 0 1rem;
+    border-bottom: .01rem solid #DCDCDC;
+    background: url("../image/rentalList/right.png") no-repeat 77rem center;
+}
+.bo1>.bo4>.p2{
+    padding: 2rem 3rem;
+    font-size: 3rem;
+    line-height: 5rem;
+}
+
+.bo1>.bo4>.bo5{
+    width: 90%;
+    margin: 2rem auto;
+    border: .1rem solid #DCDCDC;
+}
+.bo1>.bo4>.bo5>p{
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 5rem;
+    border-bottom: .1rem solid #DCDCDC;
+}
+.bo1>.bo4>.bo5>img{
+    width: 100%;
+}
+.bo1>.bo4>.p3{
+    margin: 2rem 3rem;
+    font-size: 3rem;
+    line-height: 5rem;
+}
+.bo1>.bo4>.p3>span{
+    color:#DE6843;
+}
+.bo1>.u3{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    list-style: none;
+    display: flex;
+    border: .1rem solid #DCDCDC;
+}
+.bo1>.u3>.s1{
+    margin-right: 2rem;
+}
+.bo1>.u3>.s1>img{
+    width: 10rem;
+    height: 10rem;
+}
+.bo1>.u3>.s2{
+    margin-right: 5rem;
+}
+.bo1>.u3>.s2>p{
+    font-size: 3rem;
+    line-height: 5rem;
+}
+.bo1>.u3>.s3{
+    margin-left: 4rem;
+    padding-top: 7rem;
+    font-size: 3rem;
+    background: url("../image/rentalList/icon1.png") no-repeat 1rem 2rem;
+}
+.bo1>.u3>.s4{
+    background: url("../image/rentalList/icon2.png") no-repeat 1rem 2rem;
+     
+}
+/* 底部 */
+
+.box1{
+    width: 100%;
+    background-color: #2F3130;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+}
+.box1>.p1{
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 1rem 0;
+    color: #939494;
+    border-bottom: .1rem solid #939494;
+}
+.box1>ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1>ul>li{
+    margin-top: 3rem;
+    display: flex;
+}
+.box1>ul>li>img{
+    width: 3rem;
+    height: 3.3rem;
+}
+.box1>ul>li>.box2{
+    margin-left: 2rem;
+    font-size: 1.8rem;
+    color: #939494;
+}
+.box3{
+    margin-top: 3rem;
+    
+}
+.box3>p{
+    text-align: center;
+    font-size: 1.8rem;
+    color: #939494;
+}

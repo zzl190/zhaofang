@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+/* 头部 */
+.box{
+    width: 100%;
+    display: flex;
+    background-color: #FF8A00;
+    box-sizing: border-box;
+    padding: 1rem 3rem;
+    justify-content: space-between;
+}
+.box>ul{
+    display: flex;
+    list-style: none;
+}
+.box>ul>li{
+    margin-right: 2rem;
+}
+
+
+
+
+.pp{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem 3rem;
+    font-size: 2.4rem;
+    color: black;
+    border-bottom: .1rem solid #C5C5C5;
+}
+.pp>a{
+    color: black;
+}
+.pp>.a1{
+    font-weight: 700;
+}
+
+.box1{
+    width: 100%;
+}
+.box1>ul{
+    list-style: none;
+    
+}
+
+.box1>ul>li{
+    height: 13rem;
+    border-bottom: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    padding: 0 3rem;
+    padding-top: 2rem;
+}
+.box1>ul>.l1{
+    display: flex;
+    justify-content: space-between;
+}
+.box1>ul>.li>input{
+    width: 70%;
+    box-sizing: border-box;
+    padding-right: 3rem;
+}
+.box1>ul>li>input{
+    
+    border: none;
+    outline: none;
+    line-height: 10rem;
+}
+.box1>ul>.l1>a{
+    display: block;
+    width: 20rem;
+    height: 8rem;
+    font-size: 2rem;
+    color: #666666;
+    text-align: center;
+    line-height: 8rem;
+    border: .1rem solid #DCDCDC;
+}
+.box1>.box2{
+    width: 100%;
+    padding: 0 3rem;
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    padding-top: 6rem;
+}
+.box1>.box2>button{
+    background-color: #FF8A00;
+    border: none;
+     width: 100%;
+     margin: 0 auto;
+     height: 10rem;
+     font-size: 5rem;
+     color: #fff;
+}
